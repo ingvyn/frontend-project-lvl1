@@ -1,0 +1,23 @@
+{
+  "name": "@hexlet/code",
+  "version": "1.0.0",
+  "description": "Brain games training project of program Frontend Dev",
+  "main": "./bin/brain-games.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ingvyn/frontend-project-lvl1.git"
+  },
+  "keywords": [
+    "brain",
+    "games"
+  ],
+  "author": "igor Nikitin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ingvyn/frontend-project-lvl1/issues"
+  },
+  "homepage": "https://github.com/ingvyn/frontend-project-lvl1#readme"
+}
