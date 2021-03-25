@@ -16,7 +16,8 @@ do {
   countQuestions += 1;
   nextNumber = getRandomNumber();
   correctAnswer = isEven(nextNumber) ? 'yes' : 'no';
-  userAnswer = getUserResponse(`Question: ${nextNumber}`);
+  console.log(`Question: ${nextNumber}`);
+  userAnswer = getUserResponse('Your answer: ');
   if (userAnswer === correctAnswer) {
     console.log('Correct!');
     isAnswerCorrect = true;
