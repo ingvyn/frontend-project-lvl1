@@ -14,7 +14,7 @@ let correctAnswer;
 let isAnswerCorrect = false;
 do {
   countQuestions += 1;
-  nextNumber = getRandomNumber(1, 29);
+  nextNumber = getRandomNumber();
   correctAnswer = isEven(nextNumber) ? 'yes' : 'no';
   userAnswer = getUserResponse(`Question: ${nextNumber}`);
   if (userAnswer === correctAnswer) {
