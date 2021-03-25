@@ -1,5 +1,6 @@
 #!/usr/bin/env node
-import setUser from '../src/cli.js';
+import getUserResponse from '../src/cli.js';
 
 console.log('Welcome to the Brain Games!');
-setUser();
+const userName = getUserResponse('May I have your name? ');
+console.log(`Hello, ${userName}!`);
