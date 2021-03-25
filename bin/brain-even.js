@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 import getUserResponse from '../src/cli.js';
-import getRandomArbitrary from '../src/randomNumber.js';
+import getRandomNumber from '../src/randomNumber.js';
 import isEven from '../src/evenNumber.js';
 
 console.log('Welcome to the Brain Games!');
@@ -14,7 +14,7 @@ let correctAnswer;
 let isAnswerCorrect = false;
 do {
   countQuestions += 1;
-  nextNumber = getRandomArbitrary(1, 29);
+  nextNumber = getRandomNumber(1, 29);
   correctAnswer = isEven(nextNumber) ? 'yes' : 'no';
   userAnswer = getUserResponse(`Question: ${nextNumber}`);
   if (userAnswer === correctAnswer) {
