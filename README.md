@@ -8,3 +8,6 @@ https://asciinema.org/a/t5uOQgNr83Fe8iZ6jA02ZlVrZ . В начале аскине
 
 аскинема с записью игры brain-calc:
 https://asciinema.org/a/YMS2tZMdJNntaSmB74qNqDGP2
+
+аскинема с записью игры brain-gcd:
+https://asciinema.org/a/iwbHRlp44RJrz9AdxHaWHhhPD
