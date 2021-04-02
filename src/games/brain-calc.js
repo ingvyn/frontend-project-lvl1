@@ -1,16 +1,17 @@
 import { getRandomNumber } from '../math.js';
 
+const maxEdgeOfMinMultiplier = 10;
 const setCalcRound = () => {
   const operations = ['+', '-', '*'];
-  const operation = operations[getRandomNumber(0, 2)];
-  const operandOne = getRandomNumber(1, 99);
+  const operation = operations[getRandomNumber(0, operations.length - 1)];
+  const operandOne = getRandomNumber();
   let operandTwo;
   if (operation === '-') {
     operandTwo = getRandomNumber(1, operandOne);
-  } else if (operandOne > 10 && operation === '*') {
-    operandTwo = getRandomNumber(1, 10);
+  } else if (operandOne > maxEdgeOfMinMultiplier && operation === '*') {
+    operandTwo = getRandomNumber(1, maxEdgeOfMinMultiplier);
   } else {
-    operandTwo = getRandomNumber(1, 99);
+    operandTwo = getRandomNumber();
   }
   const question = `${operandOne} ${operation} ${operandTwo}`;
   let correctAnswer;

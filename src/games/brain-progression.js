@@ -1,10 +1,16 @@
 import { getRandomNumber } from '../math.js';
 
+const maxEdgeOfFirstElement = 10;
+const minEdgeOfStep = 2;
+const maxEdgeOfStep = 6;
+const minNumberOfElements = 5;
+const maxNumberOfElements = 10;
+
 const setProgressionRound = () => {
   const progressionCollection = [];
-  const firstElement = getRandomNumber(1, 10);
-  const stepProgression = getRandomNumber(2, 6);
-  const numberOfElements = getRandomNumber(5, 10);
+  const firstElement = getRandomNumber(1, maxEdgeOfFirstElement);
+  const stepProgression = getRandomNumber(minEdgeOfStep, maxEdgeOfStep);
+  const numberOfElements = getRandomNumber(minNumberOfElements, maxNumberOfElements);
   for (let i = 0, nextElement = firstElement; i < numberOfElements;
     i += 1, nextElement += stepProgression) {
     progressionCollection.push(nextElement);

@@ -1,5 +1,6 @@
 import getUserResponse from './cli.js';
 
+const numberOfRounds = 3;
 const doGame = (description, setNextRound, userName) => {
   console.log(description);
   let countRounds = 0;
@@ -17,7 +18,7 @@ const doGame = (description, setNextRound, userName) => {
       console.log(`Let's try again, ${userName}!`);
       return;
     }
-  } while (countRounds < 3);
+  } while (countRounds < numberOfRounds);
   console.log(`Congratulations, ${userName}!`);
 };
 

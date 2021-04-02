@@ -13,7 +13,7 @@ const isPrime = (number) => {
 };
 
 const setPrimeRound = () => {
-  const question = getRandomNumber(1, 101);
+  const question = getRandomNumber();
   const correctAnswer = isPrime(question);
   return { question, correctAnswer };
 };
