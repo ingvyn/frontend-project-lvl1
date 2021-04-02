@@ -1,6 +1,9 @@
 import { getRandomNumber } from '../math.js';
 
 const isPrime = (number) => {
+  if (number === 1) {
+    return false;
+  }
   for (let part = 2; part <= number / 2; part += 1) {
     if (number % part === 0) {
       return 'no';
