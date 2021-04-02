@@ -14,3 +14,6 @@ https://asciinema.org/a/iwbHRlp44RJrz9AdxHaWHhhPD
 
 аскинема с записью игры brain-progression
 https://asciinema.org/a/vY5UkTkWdUC3tWlo85B2XuvEt
+
+аскинема с записью игры brain-prime
+https://asciinema.org/a/uyeVO5jzYz4VWMVNatPU9ePjO
